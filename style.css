@@ -1,0 +1,29 @@
+.calculator {
+    border: 2px solid black;
+    width: 233px;
+}
+
+.display {
+    text-align: right;
+    height: 47px;
+    font-size: 45px;
+}
+
+.key {
+    width: 57px;
+    height: 47px;
+    margin-right: -3px;
+    font-size: 25px;
+}
+
+.row {
+    padding: 1px;
+}
+
+.numeric {
+    background-color: darkgrey;
+}
+
+.func {
+    background-color: orange;
+}
