@@ -15,7 +15,8 @@
     font-size: 45px;
     background-color: white;
     overflow: hidden;
-    direction: ltr;
+    /* Figure out how to make the - symbol come before negative numbers */
+    direction: rtl;
 }
 
 .key {
