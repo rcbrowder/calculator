@@ -1,12 +1,21 @@
+.outer {
+    text-align: center;
+}
+
 .calculator {
     border: 2px solid black;
     width: 233px;
+    background-color: black;
+    margin: auto;
 }
 
 .display {
     text-align: right;
     height: 47px;
     font-size: 45px;
+    background-color: white;
+    overflow: hidden;
+    direction: ltr;
 }
 
 .key {
@@ -14,6 +23,7 @@
     height: 47px;
     margin-right: -3px;
     font-size: 25px;
+    border: none;
 }
 
 .row {
@@ -26,4 +36,8 @@
 
 .func {
     background-color: orange;
+}
+
+.dud {
+    background-color: #ccc;
 }
